@@ -1,6 +1,6 @@
 <?php
 
-namespace MarwaMourad\LaravelMyfatoorah;
+namespace MarwaMourad15\LaravelPaymentMyfatoorah;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
