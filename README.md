@@ -19,7 +19,7 @@ composer require MarwaMourad15/laravel-myfatoorah
 2. Publish the **MyFatoorah** provider using the following CLI command.
 
 ```bash
-php artisan vendor:publish --provider="MarwaMourad15\LaravelMyfatoorah\MyFatoorahServiceProvider" --tag="myfatoorah"
+php artisan vendor:publish --provider="MarwaMourad15\LaravelPaymentMyfatoorah\MyFatoorahServiceProvider" --tag="myfatoorah"
 ```
 
 3. To test the payment cycle, type the below URL onto your browser. Replace only the `{example.com}` with your site domain.

@@ -69,7 +69,7 @@ class MyfatoorahApiV2 {
      * @param string|object $loggerObj   This is the file name or the logger object. It is used in logging the payment/shipping events to help in debugging and monitor the process and connections. Leave it null, if you don't want to log the events.
      * @param string        $loggerFunc  If $loggerObj is set as a logger object, you should set this var with the function name that will be used in the debugging.
      */
-    public function __construct($apiKey, $countryMode = 'KWT', $isTest = false, $mfConfigFile = __DIR__ . '/mf-config.json', $loggerObj = null, $loggerFunc = null ) {
+    public function __construct($apiKey, $countryMode = 'KWT', $isTest = false, $mfConfigFile , $loggerObj = null, $loggerFunc = null ) {
         
         $mfCountries = $this->getMyFatoorahCountries($mfConfigFile);
 
