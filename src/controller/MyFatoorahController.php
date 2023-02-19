@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use MarwaMourad\LaravelMyfatoorah\PaymentMyfatoorahApiV2;
+use MarwaMourad15\LaravelPaymentMyfatoorah\PaymentMyfatoorahApiV2;
 
 class MyFatoorahController extends Controller {
 

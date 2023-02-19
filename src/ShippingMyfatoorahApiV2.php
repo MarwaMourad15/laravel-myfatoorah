@@ -1,6 +1,6 @@
 <?php
 
-namespace MarwaMourad\LaravelMyfatoorah;
+namespace MarwaMourad15\LaravelPaymentMyfatoorah;
 
 /**
  * This class handles the shipping process of MyFatoorah API endpoints
