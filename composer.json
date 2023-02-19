@@ -15,17 +15,6 @@
     "require-dev": {
         "phpunit/phpunit": "^9"
     },
-    "autoload": {
-        "files": ["autoload.php"],
-        "psr-4": {
-            "MarwaMourad15\\LaravelMyfatoorah\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "MarwaMourad15\\Test\\": "tests"
-        }
-    },
     "extra": {
         "laravel": {
             "providers": [
