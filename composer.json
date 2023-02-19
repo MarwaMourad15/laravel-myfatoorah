@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "MarwaMourad15\\LaravelMyfatoorah\\": "src/"
+            "MarwaMourad15\\LaravelPaymentMyfatoorah\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MarwaMourad15\\LaravelMyfatoorah\\MyFatoorahServiceProvider"
+                "MarwaMourad15\\LaravelPaymentMyfatoorah\\MyFatoorahServiceProvider"
             ]
         }
     },
