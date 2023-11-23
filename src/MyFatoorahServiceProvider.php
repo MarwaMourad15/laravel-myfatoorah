@@ -22,10 +22,10 @@ class MyFatoorahServiceProvider extends ServiceProvider {
                 ], 'myfatoorah');
 
         Route::get('myfatoorah', [
-            'as'   => 'myfatoorah', 'uses' => \App\Http\Controllers\MyFatoorahController::class . '@index'
+            'as'   => 'myfatoorah', 'uses' => \App\Http\Controllers\Api\MyFatoorahController::class . '@index'
         ]);
         Route::get('myfatoorah/callback', [
-            'as'   => 'myfatoorah.callback', 'uses' => \App\Http\Controllers\MyFatoorahController::class . '@callback'
+            'as'   => 'myfatoorah.callback', 'uses' => \App\Http\Controllers\Api\MyFatoorahController::class . '@callback'
         ]);
 
         defined('MYFATOORAH_LARAVEL_PACKAGE_VERSION') or define('MYFATOORAH_LARAVEL_PACKAGE_VERSION', '2.1.0');
